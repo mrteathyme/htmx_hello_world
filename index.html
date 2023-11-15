@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<script src="https://unpkg.com/htmx.org@1.9.8" integrity="sha384-rgjA7mptc2ETQqXoYC3/zJvkU7K/aP44Y+z7xQuJiVnB/422P/Ak+F/AqFR7E4Wr" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<p id="instructions" style="margin-left:auto;margin-right:auto;width:fit-content;"> Welcome to My Htmx Hello World! Try Clicking on Hello World! </p>
+		<div id="hello_world" style="margin-left:auto;margin-right:auto;width:fit-content;" hx-get="/hello_world?" hx-swap="outerHTML">
+			<p>
+				Hello, World!
+			</p>
+		</div>
+	</body>
+</html>
+
